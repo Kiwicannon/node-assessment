@@ -185,3 +185,4 @@ test('DELETE: /api/users/ + userId', async t => {
   t.is(res.first_name, "foo", "Should return the entire deleted user.");
   t.is(res.type, "admin", "Should return the entire deleted user.");
 })
+module.exports = 'app'
